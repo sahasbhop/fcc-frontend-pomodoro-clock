@@ -1,0 +1,44 @@
+.time-label {
+    font-size: 28px;
+    font-weight: lighter;
+    align-self: center;
+    text-align: center;
+    user-select: none;
+}
+
+.time-display {
+    background: white;
+    color: #e32729;
+    font-size: 56px;
+    align-self: center;
+    text-align: center;
+    user-select: none;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
+    margin-block-end: 8px;
+    border-radius: 4px;
+}
+
+.control-box {
+    width: 180px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.control-button-bg {
+    background: #50a44b;
+    border: 2px solid;
+    font-weight: lighter;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    align-self: center;
+    text-align: center;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.control-button-bg:active {
+    background: #42873e;
+}
